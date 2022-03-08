@@ -14,6 +14,9 @@ public:
 	bool Render() override;
 	void OnExit() override;
 
+	bool userClicksPlayGameButton;
+	bool userClicksExitGameButton;
+
 private:
 
 	//All menu stuff declared here!
